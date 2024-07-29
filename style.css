@@ -34,7 +34,7 @@ button:hover {
 }
 
 body {
-    height: 100vh;
+    height: 120vh;
 }
 
 .caixa-mae {
@@ -146,14 +146,17 @@ textarea {
 }
 
 @media(max-width: 1100px) {
-    p {
-        display: none;
+    .texto p {
+        width: 70vw;
+        height: 15vh;
+        position: relative;
+        top: 18%;
     }
 
     .caixa-mae {
         flex-direction: column;
         justify-content: flex-start;
-        padding: 10vw;
+        padding: 10px;
     }
 
     .caixa-principal {
@@ -163,12 +166,14 @@ textarea {
     }
 
     .imagem-mario-luigi {
-        width: 80vw;
+        width: 80px;
         height: auto;
+        position: relative;
+        top: 20em;
     }
 
     .header {
-        margin: 10vh;
+        margin: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -179,6 +184,26 @@ textarea {
     }
 
     .header a {
-        font-size: 20vh;
+        font-size: 0.9em;
+        left: 10%;
+        position: relative;
+    }
+    
+    .botão {
+        width: 40vw;
+        height: 4vh;
+        position: relative;
+        top: 23em;
+    }
+
+    .logo-mario {
+        height: 15vh;
+        position: relative;
+        left: 15%;
+        top: 2em;
+    }
+
+    .header a:hover {
+        font-size: 15px;
     }
 }
